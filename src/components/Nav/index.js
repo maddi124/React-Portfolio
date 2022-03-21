@@ -3,19 +3,13 @@ import React from 'react';
 function Nav () {
 return (
 <header>
-    <nav>
-        <ul>
-            <il>
-                <a href="#about-me">About Me</a>
-            </il>
-            <il>
-                <a href="#work">Work</a>
-            </il>
-            <il>
-                <a href="#contact-me">Contact Me</a>
-            </il>
-        </ul>
-    </nav>
+    <h2>Madeline Garcia-Cabrera</h2>
+<nav className="nav position-absolute">
+  <a className="nav-link" href="#AboutMe">About Me</a>
+  <a className="nav-link" href="#ContactMe">Contact Me</a>
+  <a className="nav-link" href="#Projects">Portfolio</a>
+  <a className="nav-link" href="#ResumePage">Resume</a>
+</nav>
 </header>
 
 
