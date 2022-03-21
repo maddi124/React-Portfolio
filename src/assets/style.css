@@ -1,0 +1,8 @@
+:root {
+    --primary:#32746D;
+    --secondary: #9EC5AB; 
+    --tertiarty:#104F55;
+}
+body {
+    background-color:var(--tertiarty);
+}
