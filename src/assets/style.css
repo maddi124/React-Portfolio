@@ -5,4 +5,18 @@
 }
 body {
     background-color:var(--tertiarty);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--primary);
+    margin: 0;
+    padding: 15px;
+}
+a {
+    color: var(--secondary);
+    font-size: 20px;
+}
+a:hover{
+    color: var(--tertiarty);
 }

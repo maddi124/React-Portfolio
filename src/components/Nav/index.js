@@ -3,15 +3,15 @@ import React from 'react';
 function Nav () {
 return (
 <header>
-    <h2>Madeline Garcia-Cabrera</h2>
-<nav className="nav position-absolute">
-  <a className="nav-link" href="#AboutMe">About Me</a>
-  <a className="nav-link" href="#ContactMe">Contact Me</a>
-  <a className="nav-link" href="#Projects">Portfolio</a>
-  <a className="nav-link" href="#ResumePage">Resume</a>
-</nav>
-</header>
-
+  <div className='container text-center'>
+    <nav className="nav justify-content-center ">
+      <a className="nav-link" href="#AboutMe">About Me</a>
+      <a className="nav-link" href="#ContactMe">Contact Me</a>
+      <a className="nav-link" href="#Workpage">Works</a>
+      <a className="nav-link" href="#ResumePage">Resume</a>
+    </nav>
+  </div>
+</header> 
 
 );
 
