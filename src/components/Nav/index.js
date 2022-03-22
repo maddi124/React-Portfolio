@@ -3,8 +3,9 @@ import React from 'react';
 function Nav () {
 return (
 <header>
-  <div className='container text-center'>
+  <div className='container'>
     <nav className="nav justify-content-center ">
+      <a className="nav-link" href="#home">Home</a>
       <a className="nav-link" href="#AboutMe">About Me</a>
       <a className="nav-link" href="#ContactMe">Contact Me</a>
       <a className="nav-link" href="#Workpage">Works</a>
