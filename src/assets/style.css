@@ -21,5 +21,21 @@ a:hover{
     color: var(--tertiarty);
 }
 img {
-    opacity: 0.5;
+    opacity: 0.3;
 }
+#about{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+}
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
