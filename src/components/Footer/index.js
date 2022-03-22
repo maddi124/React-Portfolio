@@ -1,9 +1,17 @@
 import React from 'react';
+import {GoMarkGithub } from "react-icons/go";
+
 
 function Footer(){
 return (
-    <div className="footer">
-    <p>This is some content in sticky footer</p>
+    <div className='container'>
+    <div className='row'>
+        <div className='col'>
+            <GoMarkGithub/>
+        </div>
+    </div>
+
+    
   </div>
 
 );

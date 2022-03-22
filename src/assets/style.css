@@ -30,7 +30,7 @@ img {
         transform: translate(-50%, -50%);
         color: black;
 }
-.footer{
+.container{
     margin-top: 1rem;
     padding: 1rem;
     background-color: rgb(235, 195, 64);
