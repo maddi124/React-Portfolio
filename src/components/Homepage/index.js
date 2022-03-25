@@ -4,7 +4,7 @@ import coverImage from "../../assets/cover/coding.jpg";
 function Home () {
     return (
         <section>
-        <img src={coverImage} style={{ width: "100%" }} alt="cover"/>
+        <img src={coverImage} style={{ width: "100%" }} alt="cover" class="backgroundimg"/>
         <div class='card bg-transparent'>
             <div class='card-body'>
             <h1 class="card-title largetext">I am Madeline Cabrera</h1>

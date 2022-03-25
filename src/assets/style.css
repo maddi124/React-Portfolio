@@ -20,7 +20,7 @@ a {
 a:hover{
     color: var(--tertiarty);
 }
-img {
+.backgroundimg {
     opacity: 0.3;
     position: relative;
     text-align: center;
@@ -68,4 +68,8 @@ img {
 .box{
     padding: 40px;
     color:var(--secondary)
+}
+.avatar{
+    opacity: 0.7;
+    border-radius: 50%;
 }
