@@ -22,13 +22,15 @@ a:hover{
 }
 img {
     opacity: 0.3;
+    position: relative;
+    text-align: center;
 }
 #about{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
       
 }
 .containers{
@@ -39,7 +41,24 @@ img {
     bottom: 0;
     left: 0;
     width: 100%;
-  }
+}
 .col-1{
     max-width: 11.333333%;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+.largetext{
+    font-size: 50px;
+    color: var(--secondary);
+    
+}
+.smalltext{
+    font-size: 20px;
+    color: var(--secondary);
+    text-align: center;
 }
