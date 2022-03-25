@@ -5,7 +5,7 @@ import {AiFillTwitterCircle} from "react-icons/ai";
 
 function Footer(){
 return (
-<div class='containers '>
+<div class='containers'>
     <div class='row justify-content-center'>
         <div class='col-1'>
         <a href="https://github.com/maddi124">

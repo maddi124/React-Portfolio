@@ -62,3 +62,10 @@ img {
     color: var(--secondary);
     text-align: center;
 }
+.container{
+    width:50%;
+}
+.box{
+    padding: 40px;
+    color:var(--secondary)
+}
