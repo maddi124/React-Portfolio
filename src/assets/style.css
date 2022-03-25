@@ -30,12 +30,15 @@ img {
         transform: translate(-50%, -50%);
         color: black;
 }
-.container{
+.containers{
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(235, 195, 64);
+    background-color: var(--primary);
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
   }
+.col-1{
+    max-width: 11.333333%;
+}
