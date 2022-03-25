@@ -2,18 +2,25 @@ import React from 'react';
 import {GoMarkGithub } from "react-icons/go";
 import {BsLinkedin} from "react-icons/bs";
 import {AiFillTwitterCircle} from "react-icons/ai";
+
 function Footer(){
 return (
 <div className='containers '>
     <div className='row justify-content-center'>
         <div className='col-1'>
-            <GoMarkGithub size="50px"/>
+            <GoMarkGithub 
+                size="50px" 
+                color="#9EC5AB"/>
         </div> 
         <div className='col-1'>
-            <BsLinkedin size="50px"/>
+            <BsLinkedin 
+                size="50px"  
+                color="#9EC5AB"/>
         </div>
         <div className='col-1'>
-            <AiFillTwitterCircle size="50px"/>
+            <AiFillTwitterCircle 
+                size="50px" 
+                color="#9EC5AB"/>
         </div>
     </div>
 </div>
