@@ -73,3 +73,12 @@ a:hover{
     opacity: 0.7;
     border-radius: 50%;
 }
+.list-group-item{
+    background-color:var(--tertiarty);
+    border:none;
+    color: var(--secondary);
+    font-size: 20px;
+}
+.second{
+    padding: 10px;
+}

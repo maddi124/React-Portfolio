@@ -11,10 +11,17 @@ return (
     </div>
 
     </div>
-    <div class="container">
+    <div class="container second">
         <div class="row">
             <div class="col">
-                <img src={avatarImage} style={{ width: "30%" }} alt="placeholder" class="avatar"/> 
+                <img src={avatarImage} style={{ width: "70%" }} alt="placeholder" class="avatar"/> 
+            </div>
+            <div class="col-6">
+            <ul class="list-group">
+                <il class="list-group-item">Phone: 888-888-8888</il>
+                <il class="list-group-item">Email: user1@gmail.com</il>
+                <il class="list-group-item">Github: maddi124.github.io</il>
+            </ul>
             </div>
         </div>
     </div>
