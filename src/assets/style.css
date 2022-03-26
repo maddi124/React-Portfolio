@@ -113,10 +113,15 @@ label{
 .projectbox:hover .projectsinfo{
     opacity: 1;
 }
-.worktitle{
+.workheader{
     text-align: center;
     padding: 10px;
     margin: 10px;
 }
+.workinfo{
+    color:var(--secondary);
+    text-align: center;
+}
+
 
 
