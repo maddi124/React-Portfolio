@@ -62,7 +62,7 @@ a:hover{
     color: var(--secondary);
     text-align: center;
 }
-.container{
+.homepage{
     width:50%;
 }
 .box{
@@ -103,3 +103,20 @@ label{
 .submit:hover{
     background-color: var(--secondary);
 }
+.projectbox{
+    position: relative;
+    width: 50%;
+}
+.projectbox:hover .projects{
+    opacity: 0.3;
+}
+.projectbox:hover .projectsinfo{
+    opacity: 1;
+}
+.worktitle{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
