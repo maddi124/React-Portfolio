@@ -107,20 +107,22 @@ label{
     position: relative;
     width: 50%;
 }
-.projectbox:hover .projects{
-    opacity: 0.3;
-}
-.projectbox:hover .projectsinfo{
-    opacity: 1;
-}
 .workheader{
     text-align: center;
     padding: 10px;
     margin: 10px;
+    color: var(--secondary);
 }
 .workinfo{
     color:var(--secondary);
     text-align: center;
+  
+}
+.fade{
+
+}
+.fade:hover{
+    opacity: 0.3;
 }
 
 
