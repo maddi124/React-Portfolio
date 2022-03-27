@@ -91,9 +91,16 @@ a:hover{
 }
 label{
     font-size: 18px;
-    color:var(--secondary)
+    color:var(--secondary);
+    width: 100%;
 }
-.textform{
+input{
+    width: 90%;
+}
+textarea{
+    width: 100%;
+}
+.h1tag{
     text-align: center;
 }
 .submit{

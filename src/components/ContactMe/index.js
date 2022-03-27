@@ -1,29 +1,66 @@
-import React from "react";
+import React, { useState } from 'react';
+
+import { validateEmail } from '../../utils/helpers';
+
 
 function ContactMe() {
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+
+    const [errorMessage, setErrorMessage] = useState('');
+    const { name, email, message } = formState;
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (!errorMessage) {
+        setFormState({ [e.target.name]: e.target.value });
+        console.log('Form', formState);
+      }
+    };
+  
+    const handleChange = (e) => {
+      if (e.target.name === 'email') {
+        const isValid = validateEmail(e.target.value);
+        if (!isValid) {
+          setErrorMessage('Your email is invalid.');
+        } else {
+          setErrorMessage('');
+        }
+      } else {
+        if (!e.target.value.length) {
+          setErrorMessage(`${e.target.name} is required.`);
+        } else {
+          setErrorMessage('');
+        }
+      }
+    };
+
 return (
-<div class="container contactform ">
-<h3 class="textform">Contact Form</h3>  
-    <form>
-        <div class="form-group">
-            <label for="fname" placeholder="First Name">First Name</label>
-            <input type="text" class="form-control" id="fname" placeholder="First Name"/>
+    <div class="container contactform ">
+    <section>
+    <h1 data-testid="h1tag" class="h1tag">Contact me</h1>
+    <form id="contact-form" onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name" class="forminfo">Name:</label>
+        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      </div>
+      <div>
+        <label htmlFor="email">Email address:</label>
+        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+      </div>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
         </div>
-        <div class="form-group">
-            <label for="Lname" placeholder="Last Name">Last Name</label>
-            <input type="text" class="form-control" id="Lname" placeholder="Last Name"/>
-        </div>
-        <div class="form-group">
-            <label for="phone" placeholder="Phone Number">Phone Number</label>
-            <input type="text" class="form-control" id="phone" placeholder="(###)###-####"/>
-        </div>
-        <div class="form-group">
-        <label for="message" placeholder="message">Message</label>
-        <textarea class="form-control" id="message" ></textarea>
-        </div>
-        <input type="submit" class="submit"value="Submit"/>
+      )}
+      <button data-testid="button" type="submit">Submit</button>
     </form>
-</div>
+  </section>
+  
+  </div>
 );
 }
 export default ContactMe;
