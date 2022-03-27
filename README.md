@@ -3,7 +3,7 @@
 # Description
 For this week challenge, We were to create a Portfolio using React app. It includes About Me, Work, Contact, Resume and Footer section that has icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform. <br>
 
-CHECK OUT PAGE [HERE](https://maddi124.github.io/React-Portfolio/)
+CHECK OUT PAGE [HERE]( https://young-thicket-94843.herokuapp.com/)
 
 ![Homepage](./src/assets/cover/images/homepage.png)
 
