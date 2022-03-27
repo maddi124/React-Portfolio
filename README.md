@@ -1,7 +1,9 @@
 # React-Portfolio
 
 # Description
-For this week challenge, We were to create a Portfolio using React app. It includes About Me, Work, Contact, Resume and Footer section that has icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform. 
+For this week challenge, We were to create a Portfolio using React app. It includes About Me, Work, Contact, Resume and Footer section that has icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform. <br>
+
+CHECK OUT PAGE [HERE](https://maddi124.github.io/React-Portfolio/)
 
 ![Homepage](./src/assets/cover/images/homepage.png)
 
