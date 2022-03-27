@@ -128,7 +128,35 @@ label{
 }
 .skills{
     text-align: center;
+    color:var(--secondary);
+    padding: 10px;
 }
-
-
-
+.long{
+ left: 15%;
+}
+h3, h2{
+    color:var(--secondary)
+}
+.resp{
+    color: var(--secondary);
+    font-size:20px;
+}
+.edinfo{
+    left: 5%;
+    padding: 20px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
